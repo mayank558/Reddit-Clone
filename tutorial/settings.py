@@ -26,7 +26,7 @@ SECRET_KEY = '(*f#0nkovudoo@(&lrvo+l%568l0%*mefjt_ufsolyt%*2dm&5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','instareditclone.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','instareditclone.herokuapp.com']
 
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
